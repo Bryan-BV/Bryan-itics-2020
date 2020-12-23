@@ -6,7 +6,7 @@ namespace Bryan_itics_2020
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Inicio del Proyecto de Git y GitHub");
         }
     }
 }
