@@ -16,7 +16,9 @@ namespace Bryan_itics_2020
             profesor.Tareas();
             Console.WriteLine("==================================================================");
             Estudiante estudiante = new Estudiante("3ro Basico", "A", "Luis Hernandez", 14, 'M');
+            Console.WriteLine("Mostrando datos del estudiante");
             estudiante.DatosPersona();
+            Console.WriteLine("Mostrando Comportamientos del Estudiante");
             estudiante.Tareas();
         }
     }
