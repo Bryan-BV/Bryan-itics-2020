@@ -11,6 +11,10 @@ namespace Bryan_itics_2020
             director.DatosPersona();
             director.Tareas();
             Console.WriteLine("==================================================================");
+            Profesor profesor = new Profesor("Matematicas", 4000, "Julia Lopez", 29, 'F');
+            profesor.DatosPersona();
+            profesor.Tareas();
+            Console.WriteLine("==================================================================");
         }
     }
 }
